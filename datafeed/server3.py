@@ -235,7 +235,7 @@ ops = {
 class App(object):
     """ The trading game server application. """
 
-    def __init__(self):
+    def __init__(self): 
         self._book_1    = dict()
         self._book_2    = dict()
         self._data_1    = order_book(read_csv(), self._book_1, 'ABC')
